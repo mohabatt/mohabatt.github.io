@@ -1,10 +1,9 @@
 ---
-layout: default
+layout: page
 title: Resources
 usemathjax: true
 ---
 
-# Resources
 As a member of an underrepresented group in mathematics, I've found that it is useful for everyone to have access to resources to help them on their journey of mathematical exploration (and learning, in general). [Federico Ardila's](http://math.sfsu.edu/federico/) beautiful [axioms](https://www.ams.org/publications/journals/notices/201610/rnoti-p1164.pdf) for doing mathematics provide an inspiring framework in which we can all strive to do mathematics equitably and joyously:
 
 <span style = "color:#7986CB">Axiom 1.</span> Mathematical talent is distributed equally among different groups, irrespective of geographic, demographic, and economic boundaries.
