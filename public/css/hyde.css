@@ -67,7 +67,7 @@ html {
     left: 0;
     bottom: 0;
     width: 18rem;
-    text-align: left;
+    text-align: center;
   }
 }
 
@@ -83,6 +83,12 @@ html {
   margin-top: 0;
   font-family: "Abril Fatface", serif;
   font-size: 2.7rem;
+}
+
+.sidebar-about img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Sidebar nav */
