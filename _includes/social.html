@@ -1,0 +1,18 @@
+<div>
+
+    {% if site.github_username %}
+    <a href="https://github.com/{{ site.github_username }}" >
+        <i class="fab fa-github"></i>
+    </a>
+    {% endif %}
+
+    {% if site.twitter_username %}
+    <a href="https://twitter.com/{{ site.twitter_username }}" >
+        <i class="fab fa-twitter-square"></i>
+    </a>
+    {% endif %}
+
+    <a class="btn btn-rss" href="/feed.xml" target="_blank">
+        <i class="fas fa-rss-square"></i>
+    </a>
+</div>

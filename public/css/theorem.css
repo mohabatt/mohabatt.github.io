@@ -1,0 +1,90 @@
+.theorem:before {
+    counter-increment: theorem;
+    content: "Theorem " counter(theorem) ". ";
+    font-weight: bold;
+    font-style: normal;
+}
+
+.theorem {
+    display: block;
+    margin: 12px 0;
+    font-style: italic;
+}
+
+.lemma {
+    display: block;
+    margin: 12px 0;
+    font-style: italic;
+}
+
+.lemma:before {
+    counter-increment: theorem;
+    content: "Lemma " counter(theorem) ". ";
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+.definition {
+    display: block;
+    margin: 12px 0;
+    font-style: normal;
+}
+
+.definition:before {
+    counter-increment: theorem;
+    content: "Definition " counter(theorem) ". ";
+    font-weight: bold;
+    font-style: normal;
+}
+
+.proof{
+    display:block;
+    margin-left:10px;
+    margin-bottom:30px;
+    font-style:normal;
+    padding-bottom: 1rem;
+}
+.proof:before{
+    content:'Proof.\00a0\00a0';
+    float:left;
+    font-weight:bold;
+}
+.proof:after{
+    content:"\25A1";
+    float:right;
+}
+
+.proposition {
+    display: block;
+    margin: 12px 0;
+    font-style: italic;
+}
+
+.proposition:before {
+    counter-increment: theorem;
+    content: "Proposition " counter(theorem) ". ";
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+.corollary {
+    display: block;
+    margin: 12px 0;
+    font-style: italic;
+}
+
+.corollary:before {
+    counter-increment: theorem;
+    content: "Corollary " counter(theorem) ". ";
+    font-weight: bold;
+    font-style: normal;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
