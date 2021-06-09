@@ -5,15 +5,15 @@ usemathjax: true
 ---
 
 # Resources
-As a member of an underrepresented group in mathematics, I've found that it is useful for everyone to have access to resources to help them on their journey of mathematical exploration (and learning, in general). [Federico Ardila's](http://math.sfsu.edu/federico/) beautiful [axioms](https://www.ams.org/publications/journals/notices/201610/rnoti-p1164.pdf) for doing mathematics provide an inspiring framework in which we can all strive to do mathematics equitably and joyously. 
+As a member of an underrepresented group in mathematics, I've found that it is useful for everyone to have access to resources to help them on their journey of mathematical exploration (and learning, in general). [Federico Ardila's](http://math.sfsu.edu/federico/) beautiful [axioms](https://www.ams.org/publications/journals/notices/201610/rnoti-p1164.pdf) for doing mathematics provide an inspiring framework in which we can all strive to do mathematics equitably and joyously:
 
-Axiom 1. Mathematical talent is distributed equally among different groups, irrespective of geographic, demographic, and economic boundaries.
+<span style = "color:#7986CB">Axiom 1.</span> Mathematical talent is distributed equally among different groups, irrespective of geographic, demographic, and economic boundaries.
 
-Axiom 2. Everyone can have joyful, meaningful, and empowering mathematical experiences.
+<span style = "color:#7986CB">Axiom 2.</span> Everyone can have joyful, meaningful, and empowering mathematical experiences.
 
-Axiom 3. Mathematics is a powerful, malleable tool that can be shaped and used differently by various communities to serve thei r needs.
+<span style = "color:#7986CB">Axiom 3.</span> Mathematics is a powerful, malleable tool that can be shaped and used differently by various communities to serve thei r needs.
 
-Axiom 4. Every student deserves to be treated with dignity and respect.
+<span style = "color:#7986CB">Axiom 4.</span> Every student deserves to be treated with dignity and respect.
 
 
 Below I've included an amalgamation of resources I've come across over time[^1] that have helped me in some way, shape, or form. I hope it will do the same for all learners out there. Please [contact me](mailto:mtarkesh@uwo.ca) if you have any suggestions to add to this list.
