@@ -43,7 +43,7 @@ https://www.overleaf.com/learn/latex/Tutorials) to help get started.
 * The [nLab](https://ncatlab.org/nlab/show/HomePage) has a plethora of expositions, although I mostly use it for introductions and descriptions of topics in [category theory](https://ncatlab.org/nlab/search?query=category+theory). 
 * A heap of [advice on research and writing](http://www.cs.cmu.edu/afs/cs.cmu.edu/user/mleone/web/how-to.html) from MIT is helpful for all students and aspiring researchers.
 * A [graduate student survival guide](http://www.cs.umd.edu/~oleary/gradstudy/gradstudy.html) from the University of Maryland is filled with detailed advice and descriptions of graduate school, useful for both prospective and current students alike.
-* Last but definitely not least, the [arXiv](https://arxiv.org/archive/math): for all mathematical pre-prints, past, and current research.
+* Last but definitely not least, the [arXiV](https://arxiv.org/archive/math): for all mathematical pre-prints, past, and current research.
 
 
 
