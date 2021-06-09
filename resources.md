@@ -10,7 +10,7 @@ As a member of an underrepresented group in mathematics, I've found that it is u
 
 <span style = "color:#7986CB">Axiom 2.</span> Everyone can have joyful, meaningful, and empowering mathematical experiences.
 
-<span style = "color:#7986CB">Axiom 3.</span> Mathematics is a powerful, malleable tool that can be shaped and used differently by various communities to serve thei r needs.
+<span style = "color:#7986CB">Axiom 3.</span> Mathematics is a powerful, malleable tool that can be shaped and used differently by various communities to serve their needs.
 
 <span style = "color:#7986CB">Axiom 4.</span> Every student deserves to be treated with dignity and respect.
 
