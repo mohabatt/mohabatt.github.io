@@ -1,4 +1,4 @@
-I"�<p>As a member of an underrepresented group in mathematics, I’ve found that it is useful for everyone to have access to resources to help them on their journey of mathematical exploration (and learning, in general). <a href="http://math.sfsu.edu/federico/">Federico Ardila’s</a> beautiful <a href="https://www.ams.org/publications/journals/notices/201610/rnoti-p1164.pdf">axioms</a> for doing mathematics provide an inspiring framework in which we can all strive to do mathematics equitably and joyously:</p>
+I"u<p>As a member of an underrepresented group in mathematics, I’ve found that it is useful for everyone to have access to resources to help them on their journey of mathematical exploration (and learning, in general). <a href="http://math.sfsu.edu/federico/">Federico Ardila’s</a> beautiful <a href="https://www.ams.org/publications/journals/notices/201610/rnoti-p1164.pdf">axioms</a> for doing mathematics provide an inspiring framework in which we can all strive to do mathematics equitably and joyously:</p>
 
 <p><span style="color:#7986CB">Axiom 1.</span> Mathematical talent is distributed equally among different groups, irrespective of geographic, demographic, and economic boundaries.</p>
 
@@ -8,7 +8,7 @@
 
 <p><span style="color:#7986CB">Axiom 4.</span> Every student deserves to be treated with dignity and respect.</p>
 
-<p>Below I’ve included an amalgamation of resources I’ve come across over time<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup> that have helped me in some way, shape, or form. I hope it will do the same for all learners out there. Please <a href="mailto:mtarkesh@uwo.ca">contact me</a> if you have any suggestions to add to this list.</p>
+<p>Below I’ve included an amalgamation of resources I’ve come across over time<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup> that have helped me in some way, shape, or form. I hope it will do the same for all learners out there.</p>
 
 <h2 id="toolkit">Toolkit</h2>
 <ul>
@@ -34,12 +34,13 @@
       <li>As an aside, Bradley and coauthors have penned a book called <em><a href="https://www.math3ma.com/blog/topology-book">Topology: A Categorical Approach</a></em> that takes traditional point-set topology and infuses it with the language of category theory. An enjoyable read for those familiar with point-set topology and interested in delving into category theory and its applications.</li>
     </ul>
   </li>
-  <li>Terence Tao’s blog <a href="(https://terrytao.wordpress.com/)"><em>“What’s new?”</em></a> has a wealth of resources for mathematicians at all stages of their journey. He also provides regular research updates that are highly accessible.</li>
+  <li>Terence Tao’s blog <em><a href="https://terrytao.wordpress.com/">What’s new?</a></em> has a wealth of resources for mathematicians at all stages of their journey. He also provides regular research updates that are highly accessible.</li>
   <li>Keith Conrad’s <a href="https://kconrad.math.uconn.edu/blurbs/">expository papers</a> consist of rigorous, understandable, and complete expositions on important topics in algebra and analysis. It has more of an emphasis on algebra, with many papers on elementary and algebraic number theory.</li>
-  <li><a href="https://math.jhu.edu/~eriehl/#exposition">Emily Riehl’s</a> expository writings are vital for anyone interested in category theory. Her category theory book, <a href="https://math.jhu.edu/~eriehl/context/"><em>“Category Theory in Context”</em></a> is a wonderful introduction to the subject, with an emphasis on drawing examples from all areas of mathematics.</li>
-  <li><a href="http://bifibrant.com">Scott Balchin</a> gave a series of talks called <em>Model Categories by Example</em> and his detailed <a href="http://bifibrant.com/bifibrant.html">lecture notes</a> are helpful for those looking for some intuition behind the definitions and examples of model categories.</li>
+  <li><a href="https://math.jhu.edu/~eriehl/#exposition">Emily Riehl’s</a> expository writings are vital for anyone interested in category theory. Her category theory book, <em><a href="https://math.jhu.edu/~eriehl/context/">Category Theory in Context</a></em> is a wonderful introduction to the subject, with an emphasis on drawing examples from all areas of mathematics.</li>
+  <li><a href="http://bifibrant.com">Scott Balchin</a> gave a series of <a href="https://www.youtube.com/playlist?list=PLsDn5JyJXoYLW6SwHe6qvXUj47temS_ad">lectures</a> called <em>Model Categories by Example</em> and his detailed <a href="http://bifibrant.com/bifibrant.html">notes</a> are helpful for those looking for some intuition behind the definitions and examples of model categories.</li>
   <li>The <a href="https://ncatlab.org/nlab/show/HomePage">nLab</a> has a plethora of expositions, although I mostly use it for introductions and descriptions of topics in <a href="https://ncatlab.org/nlab/search?query=category+theory">category theory</a>.</li>
   <li>A heap of <a href="http://www.cs.cmu.edu/afs/cs.cmu.edu/user/mleone/web/how-to.html">advice on research and writing</a> from MIT is helpful for all students and aspiring researchers.</li>
+  <li>A <a href="http://www.cs.umd.edu/~oleary/gradstudy/gradstudy.html">graduate student survival guide</a> from the University of Maryland is filled with detailed advice and descriptions of graduate school, useful for both prospective and current students alike.</li>
   <li>Last but definitely not least, the <a href="https://arxiv.org/archive/math">arXiV</a>: for all mathematical pre-prints, past, and current research.</li>
 </ul>
 
