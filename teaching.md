@@ -3,7 +3,7 @@ layout: page
 title: Teaching
 usemathjax: true
 ---
-During my masters degree in 2017-2018, and from 2019 onwards during my PhD program, I worked as a graduate teaching assistant in the [Department of Mathematics](https://www.math.uwo.ca/) at Western University. I conducted tutorials, office hours, and graded assessments as part of my duties. These courses included: 
+During my masters degree in 2017-2018, and from 2019 onwards during my PhD program, I worked as a graduate teaching assistant in the [Department of Mathematics](https://www.math.uwo.ca/) at Western University. I conducted tutorials, hosted office hours, and graded assessments as part of my duties. These courses included: 
 - [CALC 1301A](https://www.math.uwo.ca/undergraduate/current_students/course_information/course-outlines-directory/2020/CA1301B_2021.pdf): Calculus II
 - [CALC 1501B](https://www.math.uwo.ca/undergraduate/current_students/course_information/course-outlines-directory/2020/CALC-1501B.pdf): Calculus II for Mathematical and Physical Science 
 - [MATH 1229A/B](https://www.math.uwo.ca/undergraduate/current_students/course_information/course-outlines-directory/2021/Math-1229-Course-Outline-Fall-2021.pdf): Methods of Matrix Algebra
