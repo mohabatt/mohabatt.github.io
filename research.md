@@ -13,6 +13,7 @@ I'm currently thinking about [exponential random graph models](https://en.wikipe
 ## Fall 2021
 - [Topos Theory](https://www.uwo.ca/math/faculty/kapulkin/seminars/topos_theory.html) (Reading Seminar). 
     - Talk: Sheaves as étale spaces
+- Random Matrix Theory and Topological Recursion (Reading Seminar).
 
 ## Summer 2021
 - [MATH 9171L](https://jdc.math.uwo.ca//M9171a-2021-summer/index.html): Mathematical Computation
