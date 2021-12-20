@@ -21,5 +21,5 @@ I supervised various undergraduate students as part of the [Directed Reading Pro
 I privately tutor undergraduate students for all mathematics courses. For my current availability, please [email me](mailto:mtarkesh@uwo.ca).
 
 ## Other
-During the year in between my masters and PhD, I was as an instructor at [Seneca College](https://www.senecacollege.ca/home.html) in Toronto. I was a part of the wonderful team in the [Pre-Health Sciences Pathway to Advanced Diplomas and Degrees (PHS)](https://www.senecacollege.ca/programs/fulltime/PHS.html) program.
+During the year in between my masters and PhD, I was an instructor at [Seneca College](https://www.senecacollege.ca/home.html) in Toronto. I was a part of the wonderful team in the [Pre-Health Sciences Pathway to Advanced Diplomas and Degrees (PHS)](https://www.senecacollege.ca/programs/fulltime/PHS.html) program.
 
