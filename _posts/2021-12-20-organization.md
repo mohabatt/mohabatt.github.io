@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Coming soon...
+title: My organizational workflow: Coming soon...
 categories: [misc]
 usemathjax: true
 ---
+
