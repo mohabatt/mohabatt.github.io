@@ -30,7 +30,7 @@ https://www.overleaf.com/learn/latex/Tutorials) to help get started.
 * For collaboration that can be succinctly done through some diagrams, the online [tikzcd](https://tikzcd.yichuanshen.de/) editor is great for this. You can draw any diagram, share the link and edit it with others in real-time. You can even extract the $\LaTeX$ code to use it later.
 * For collaboration that needs some coding (read: [Sage](https://www.sagemath.org/)), [CoCalc](https://cocalc.com/app) is an interactive environment that can help you get started coding math right away - again, without the need for installing any packages on your machine. Although it can be a little slow at times, it is great for mini computations and jotting down quick and short ideas.
 * My personal notetaking outside of collaborations is a combination of pen-and-paper (and post-its!), [GoodNotes](https://www.goodnotes.com/), and [Notability](https://www.gingerlabs.com/). The latter two are practically interchangeable and its utility highly depends on personal preference. 
-* For task management and all things organizational, I use a combination of Emacs' [Org-Roam](https://www.orgroam.com/) and [Notion](https://www.notion.so/). More on this will be forthcoming in a blog post.
+* For task management and all things organizational, I use a combination of Emacs' [Org-Roam](https://www.orgroam.com/) and [Notion](https://www.notion.so/). More on this is in a [blog post](/_posts/2021-12-20-my-organizational-workflow.md).
 
 
 ## Blogs and expositions
