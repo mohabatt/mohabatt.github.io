@@ -17,6 +17,9 @@ During my masters degree in 2017-2018, and from 2019 onwards during my PhD progr
 ## Directed Reading Program (DRP)
 I supervised various undergraduate students as part of the [Directed Reading Program](https://www.uwo.ca/math/undergraduate/current_students/directed_reading_program.html) (DRP) in the fall of 2020 and 2021. These projects included an introduction to point-set topology using category theory and an introduction to convex geometry. If you're an undergraduate interested in completing a DRP with me, please feel free to [drop me an email](mailto:mtarkesh@uwo.ca). 
 
+## Private tutoring
+I privately tutor undergraduate students for all mathematics courses. If you're interested in this service, please [email me](mailto:mtarkesh@uwo.ca).
+
 ## Other teaching
 During the year in between my masters and PhD, I was as an instructor at [Seneca College](https://www.senecacollege.ca/home.html) in Toronto. I was a part of the wonderful team in the [Pre-Health Sciences Pathway to Advanced Diplomas and Degrees (PHS)](https://www.senecacollege.ca/programs/fulltime/PHS.html) program.
 
