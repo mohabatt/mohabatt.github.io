@@ -15,10 +15,14 @@ Even though I moved away from paper notebooks, I still wanted to keep all of my 
 I enjoyed Obsidian for a while, but when it came time to TeX some of these notes, I had to manually transfer them over with no real solution of exporting directly to TeX. Then, in the summer of 2021, I took a course in [mathematical computation](http://jdc.math.uwo.ca/M9171a-2021-summer/index.html) and learned [Haskell](https://www.haskell.org) as part of my end-of-term project. When researching uses of Haskell in the *real-world*, I found an incredible open-source application called [Pandoc](https://pandoc.org) (written in Haskell!). It lets you convert between a plethora of different document types, from TeX to Markdown to HTML and more. As part of this journey into learning Haskell, I discovered that it was well-integrated in [Emacs](https://www.gnu.org/software/emacs/), a text editor that does pretty much everything I needed to do (and more). I quickly transitioned my Obsidian workflow into [Org-Roam](https://www.orgroam.com), a much more intricate software that had all the functionality of Obsidian and then some. It is also very easily converted into TeX using the ever-handy Pandoc. This is all housed in [Spacemacs](https://develop.spacemacs.org) (an Emacs distribution). The great thing about this setup is that I can easily shift my org files into $\LaTeX$ and vice versa. I now use org-roam to conveniently organize all of my research, meeting, and seminar notes in one place. I can also export these to pdf files that are beautifully TeXed and ready to be presented to the *outside world*.
 
 <figure>
+  <center>
   <img src ="/images/org-roam-graph.png" alt ="Org Roam UI Graph" style="width:50%">
-  <figcaption>An example of an org-roam note graph.</figcaption>
+  <figcaption>
+    <font size="-1.5"><span style="color:gray"> An example of an org-roam note graph.</span></font>
+  </figcaption>
+  </center>
 </figure>
   
 So where does [Notion](https://www.notion.so/login) come into play? Even before turning to Obsidian, I used Notion to house all of my math notes. Although the interface is wonderful, I needed more customization and the ability to edit and view my files offline. I also ran into the same *Obsidian-esque* issue of not being able to smoothly export files to TeX. I continue to use Notion on a daily basis, but as a task manager rather than a note-taking app. I find that it has an unmatched functionality of scheduling long-term projects and small daily tasks.
 
-This workflow has been working wonders for my productivity and organization, being able to hop between notes and really think in a concise way has led to new insights. But, who knows, maybe some tweaks can be made - as with all things - to improve it even further. Stay tuned for future updates - happy 2022 in advance!
+This workflow has been working wonders for my productivity and organization, being able to hop between notes and really think in a concise way has led to new insights. But, who knows, maybe some tweaks can be made - as with all things - to improve it even further. Stay tuned for future updates and happy 2022 in advance!
