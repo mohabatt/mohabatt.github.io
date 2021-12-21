@@ -23,6 +23,6 @@ I enjoyed Obsidian for a while, but when it came time to TeX some of these notes
   </center>
 </figure>
   
-So where does [Notion](https://www.notion.so/login) come into play? Even before turning to Obsidian, I used Notion to house all of my math notes. Although the interface is wonderful, I needed more customization and the ability to edit and view my files offline. I also ran into the same *Obsidian-esque* issue of not being able to smoothly export files to TeX. I continue to use Notion on a daily basis, but as a task manager rather than a note-taking app. I find that it has an unmatched functionality of scheduling long-term projects and small daily tasks.
+So where does [Notion](https://www.notion.so/login) come into play? Even before turning to Obsidian, I used Notion to house all of my math notes. Although the interface is wonderful, I needed more customization and the ability to edit and view my files offline. I also ran into the same *Obsidian-esque* issue of not being able to smoothly export files to TeX. I continue to use Notion on a daily basis, but as a task manager rather than a note-taking app. I find that it has an unmatched functionality for scheduling long-term projects and small daily tasks.
 
 This workflow has been working wonders for my productivity and organization, being able to hop between notes and really think in a concise way has led to new insights. But, who knows, maybe some tweaks can be made - as with all things - to improve it even further. Stay tuned for future updates and happy 2022 in advance!
