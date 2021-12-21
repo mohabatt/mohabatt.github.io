@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Contact
+title: Contact me
 ---
 
 Contact me at mtarkesh (at) uwo (dot) ca.
