@@ -17,7 +17,7 @@ I'm currently thinking about [exponential random graph models](https://en.wikipe
 
 ## Summer 2021
 - [MATH 9171L](https://jdc.math.uwo.ca//M9171a-2021-summer/index.html): Mathematical Computation
-    - [Final presentation](https://www.dropbox.com/s/u3qarddmcp66tez/20210624%20presentation.mp4?dl=0)
+    - [Final presentation](https://youtu.be/vRPyaeW-HNc)
 
 ## Winter 2021
 - [MATH 9141B](https://www.math.uwo.ca/faculty/dhillon/teaching/CommutativeAlgebra2021.html): Commutative Algebra
