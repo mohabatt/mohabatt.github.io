@@ -12,6 +12,7 @@ During my masters degree in 2017-2018, and from 2019 onwards during my PhD progr
 - [MATH 2151A](https://www.math.uwo.ca/undergraduate/current_students/course_information/course-outlines-directory/2021/Math2151fw21.pdf): Discrete Structures for Engineering
 - [MATH 3020A](https://www.uwo.ca/math/faculty/kapulkin/courses/2021-3020A.html): Introduction to Abstract Algebra
 - [MATH 3120B](https://www.math.uwo.ca/undergraduate/current_students/course_information/course-outlines-directory/2020/Math-3120B.pdf): Group Theory
+- [MATH 3121B/9050B](https://www.math.uwo.ca/faculty/lemire/teaching/FW21/math3121b9050bfw21.html): Advanced Linear Algebra
 - [MATH 3159A](https://www.math.uwo.ca/undergraduate/current_students/course_information/course-outlines-directory/2020/Math-3159A.pdf): Introduction to Cryptography
 
 ## Directed Reading Program (DRP)
