@@ -19,7 +19,9 @@ I'm currently thinking about [exponential random graph models](https://en.wikipe
 ## Graduate & reading courses
 ### Winter 2022
 - [Probability and Number Theory](http://www.fields.utoronto.ca/activities/21-22/probability-and-numbers) at [Queens University](https://www.queensu.ca/) via [The Fields Institute](http://www.fields.utoronto.ca/describe/host-institutions/fields-institute)
-
+- [Topos Theory](https://www.uwo.ca/math/faculty/kapulkin/seminars/topos_theory.html) (Reading Seminar). 
+    - Talk: Internal Heyting algebras
+   
 ### Fall 2021
 - [Topos Theory](https://www.uwo.ca/math/faculty/kapulkin/seminars/topos_theory.html) (Reading Seminar). 
     - Talk: Sheaves as étale spaces
