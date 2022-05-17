@@ -1,19 +1,15 @@
-# frozen_string_literal: true
-
 source "https://rubygems.org"
+# gemspec
+gem "jekyll", "~> 4.2"
 
-git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
-
-# gem "rails"
-
-# gem "github-pages", "~> 223"
+gem "ffi", "~> 1.15"
 
 gem "jekyll-paginate", "~> 1.1"
 
-gem "jekyll", "~> 3.9"
+gem "jekyll-sitemap", "~> 1.4"
 
-gem "jekyll-feed"
+gem "jekyll-gist", "~> 1.5"
 
-gem "kramdown-parser-gfm"
+gem "jekyll-feed", "~> 0.16.0"
 
-# gem "nokogiri", "~> 1.10.10"
+gem "jekyll-include-cache", "~> 0.2.1"
