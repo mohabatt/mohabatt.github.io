@@ -1,5 +1,5 @@
 {
-  description = "My Jekyll website";
+  description = "A Minimal Mistakes flake";
 
   inputs.nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
   inputs.flake-utils.url = "github:numtide/flake-utils";
@@ -17,11 +17,18 @@
                               };
       in
         {
+          defaultPackage = pkgs.stdenv.mkDerivation {
+            name = "JekyllSite";
+            buildInputs = with pkgs; [ env bundler ruby ];
+            installPhase = "echo foo";
+          };
+
           devShell = pkgs.mkShell {
             name = "JekyllSite";
             buildInputs = with pkgs;
               [ env
                 bundler
+                bundix
                 ruby
               ];
           };

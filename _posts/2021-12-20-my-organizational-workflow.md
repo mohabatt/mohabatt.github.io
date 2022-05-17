@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title: My organizational workflow (org-roam x notion)
 categories: [misc]
 usemathjax: true
