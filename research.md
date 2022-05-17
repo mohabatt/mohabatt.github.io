@@ -7,7 +7,7 @@ usemathjax: true
 I'm currently thinking about [exponential random graph models](https://en.wikipedia.org/wiki/Exponential_family_random_graph_models) (ERGMs) as they appear in mathematics. Traditionally, they are used to [model social networks](https://ranger.uta.edu/~chqding/cse5301/classPapers/ExponentialRandomGraph.pdf). They can be investigated from a mathematical perspective by asking whether this family of probability distributions satisfy some *nice* conditions, such as [negative dependence](https://arxiv.org/abs/math/0404095). In this way, we connect geometry and probability theory. This connection was described in [seminal work](https://arxiv.org/abs/0707.2340) by Borcea, Brändén, and Liggett. As part of my PhD candidacy exam, I prepared a [document](/files/random graphs-markov-bernoulli-exponential.pdf) describing this connection with an eye towards ERGMs and quantum field theory. 
 
 ## Achievements
-- [Faculty of Science](https://www.uwo.ca/sci/) Graduate Student Teaching Award, Western University, 2022.
+- [Ontario Graduate Scholarship in Science and Technology](https://grad.uwo.ca/finances/external_funding/ogs.html), Western University, 2022.
 - Peter Rodney Prize for best student talk at the [Ontario Combinatorics Workshop](http://www.fields.utoronto.ca/sites/default/files/uploads/OCW-2022_Program_0.pdf), University of Waterloo, 2022.
 - [Faculty of Science](https://www.uwo.ca/sci/) Graduate Student Teaching Award, Western University, 2020. 
 - [Ontario Graduate Scholarship in Science and Technology](https://grad.uwo.ca/finances/external_funding/ogs.html), Western University, 2020.
