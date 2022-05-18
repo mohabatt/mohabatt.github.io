@@ -44,7 +44,7 @@ comments:
     theme                : # "github-light" (default), "github-dark"
     issue_term           : # "pathname" (default)
   giscus:
-    repo_id              : "mohabatt/mohabatt.github.io"
+    repo_id              : "MDEwOlJlcG9zaXRvcnkzNzU0MTEwMDQ="
     category_name        : "Announcements"
     category_id          : "DIC_kwDOFmBRPM4CPKPI"
     discussion_term      : "pathname"
