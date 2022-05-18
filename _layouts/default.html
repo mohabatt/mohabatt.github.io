@@ -13,6 +13,10 @@
     {% include head.html %}
     {% include head/custom.html %}
     {% include fonts.html %}
+    {% if page.usemathjax %}
+    {% include mathjax.html %}
+    <link rel="stylesheet" href="/assets/css/theorem.css">
+    {% endif %}
   </head>
 
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
