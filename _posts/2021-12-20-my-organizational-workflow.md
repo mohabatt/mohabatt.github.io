@@ -1,8 +1,6 @@
 ---
 title: My organizational workflow (org-roam x notion)
 categories: [misc]
-usemathjax: true
-related: true
 ---
 
 How does a grad student keep track of all the math they read, hear, or write? I ran into this question very early on in graduate school, and since then I was searching for an *ideal system* for the way I do math: writing and drawing things out. As an undergrad, I kept detailed paper notebooks for each of my classes and tabbed sections so that I could hop back and forth between notes. As a graduate student attending multiple courses and seminars over the years, this quickly became infeasible.
