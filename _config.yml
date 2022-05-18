@@ -273,6 +273,7 @@ compress_html:
 defaults:
   # _posts
   - scope:
+      type: posts
       path: ""
     values:
       show_date: true
@@ -280,7 +281,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: false
+      comments: true
       share: true
       related: true
   - scope:
