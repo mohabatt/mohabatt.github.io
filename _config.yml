@@ -288,4 +288,6 @@ defaults:
   - scope:
       path: ""
     values:
+      header:
+        image: /images/header.png
       author_profile: true
