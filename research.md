@@ -21,22 +21,22 @@ I'm currently thinking about [exponential random graph models](https://en.wikipe
 ### Winter 2022
 - [Probability and Number Theory](http://www.fields.utoronto.ca/activities/21-22/probability-and-numbers) at [Queens University](https://www.queensu.ca/) via [The Fields Institute](http://www.fields.utoronto.ca/describe/host-institutions/fields-institute)
 - [Topos Theory](https://www.uwo.ca/math/faculty/kapulkin/seminars/topos_theory.html) (Reading Seminar). 
-    - Talk: Internal Heyting algebras
+    - Talk:[*Lattice and Heyting algebra objects in a topos*](/files/topos-theory/heyting.pdf)
    
 ### Fall 2021
 - [Topos Theory](https://www.uwo.ca/math/faculty/kapulkin/seminars/topos_theory.html) (Reading Seminar). 
-    - Talk: Sheaves as étale spaces
+    - Talk: [*Sheaves as étale spaces and the inverse image sheaf*](/files/topos-theory/sheaves.pdf), 
 - Random Matrix Theory and Topological Recursion (Reading Seminar).
 
 ### Summer 2021
 - [MATH 9171L](https://jdc.math.uwo.ca//M9171a-2021-summer/index.html): Mathematical Computation
-    - [Final presentation](https://youtu.be/vRPyaeW-HNc)
+    - Final presentation [slides](/files/haskell-slides.pdf) and [recording](https://youtu.be/vRPyaeW-HNc)
 
 ### Winter 2021
 - [MATH 9141B](https://www.math.uwo.ca/faculty/dhillon/teaching/CommutativeAlgebra2021.html): Commutative Algebra
 - [Homotopical Algebra](https://www.math.uwo.ca/faculty/kapulkin/seminars/homotopical_algebra.html) (Reading Seminar). Talks:
-    - The projective model structure on chain complexes
-    - The Reedy model structure
+    - [*The projective model structure on chain complexes*](/files/homotopical-algebra/chain-complexes.pdf),
+    - [*Reedy categories and diagrams*](/files/homotopical-algebra/reedy.pdf), April 1, 2021.
 
 ### Fall 2020
 - [MATH 9163A](http://gdenham.math.uwo.ca/class/9163/): Convex Geometry
