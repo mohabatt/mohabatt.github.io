@@ -3,7 +3,7 @@ layout: home
 title: Notes 
 usemathjax: true
 ---
-Below is a (semi)complete list of notes I've taken over time, either in preparation of a talk or in attendance of a talk. Please contact me if you have any questions or spot any typos[^1].
+Below is a (semi)complete list of notes I've prepared as a speaker or participant in graduate seminars and courses. Please contact me if you have any questions or spot any typos[^1].
 
 [^1]: all mistakes are my own.
 
