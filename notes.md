@@ -26,7 +26,7 @@ Below is a (semi)complete list of notes I've prepared as a speaker or participan
 
 ## Topos theory
 ### Seminar talks
-- [Sheaves as etale spaces and the inverse iamge sheaf](/files/topos-theory/sheaves.pdf), November 8, 2021.
+- [Sheaves as etale spaces and the inverse image sheaf](/files/topos-theory/sheaves.pdf), November 8, 2021.
 - [Lattice and Heyting algebra objects in a topos](/files/topos-theory/heyting.pdf), April 21, 2022.
 
 
