@@ -41,7 +41,7 @@ Below is a (semi)complete list of notes I've prepared as a speaker or participan
 Professor [Dan Christensen](https://jdc.math.uwo.ca/)
 - *Haskell and the power of functional programming* [presentation slides](/files/haskell-slides.pdf) and [recording](https://www.youtube.com/watch?v=vRPyaeW-HNc), June 24, 2021.
 
-## Commutative Algebra (Winter 2021)
+## Commutative algebra (Winter 2021)
 Professor [Ajneet Dhillon](https://www.math.uwo.ca/faculty/dhillon/)
 - [Lecture notes](https://www.dropbox.com/sh/ohqk8lgbruqmkg9/AABm4pk2g81UBASG_9fPV1cVa?dl=0)
 
