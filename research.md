@@ -15,7 +15,7 @@ I'm currently thinking about [exponential random graph models](https://en.wikipe
 
 ## Talks
 ### Summer 2022
-- *The geometry of random graphs with a Markov flavour*, [26<sup>th</sup> Ontario Combinatorics Workshop](http://www.fields.utoronto.ca/activities/21-22/combinatorics), University of Waterloo, May 2022 ([slides](/files/OCW-slides.pdf))
+- *The geometry of random graphs with a Markov flavour*, [26<sup>th</sup> Ontario Combinatorics Workshop](http://www.fields.utoronto.ca/activities/21-22/combinatorics), University of Waterloo, [May 2022](/files/OCW-picture.jpg) ([slides](/files/OCW-slides.pdf))
 
 ## Graduate & reading courses
 ### Winter 2022
