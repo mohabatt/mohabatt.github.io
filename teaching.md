@@ -3,6 +3,10 @@ layout: home
 title: Teaching
 usemathjax: true
 ---
+## Fall 2022
+This term, I am teaching two sections of [CALC 1000A](https://www.uwo.ca/math/undergraduate/current_students/course_information/course-outlines-directory/2022/CA1000A_blended.pdf). Access my lecture notes [here](https://www.dropbox.com/sh/5jp1i1fh25br3sf/AAB7AT7WPBLttaZcJcFuTScka?dl=0). For students in my classes, please refer to the [OWL](https://owl.uwo.ca/portal) course page for all resources and information.
+
+## Past experience
 During my masters degree in 2017-2018, and from 2019 onwards during my PhD program, I worked as a graduate teaching assistant in the [Department of Mathematics](https://www.math.uwo.ca/) at Western University. I conducted tutorials, hosted office hours, and graded assessments as part of my duties. These courses included: 
 - [CALC 1301A](https://www.math.uwo.ca/undergraduate/current_students/course_information/course-outlines-directory/2020/CA1301B_2021.pdf): Calculus II
 - [CALC 1501B](https://www.math.uwo.ca/undergraduate/current_students/course_information/course-outlines-directory/2020/CALC-1501B.pdf): Calculus II for Mathematical and Physical Science 
