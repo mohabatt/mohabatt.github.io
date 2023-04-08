@@ -3,8 +3,11 @@ layout: home
 title: Teaching
 usemathjax: true
 ---
+## Winter 2023
+This term, I am running a tutorial section of Intermediate Linear Algebra ([MATH 2120B](https://www.uwo.ca/math/undergraduate/current_students/course_information/course-outlines-directory/2022/MATH2120B-2023.pdf)). You can access my tutorial notes [here](https://www.dropbox.com/sh/cl9swvbziansvdx/AAAabqYYg4leLZIuBxfiNKZna?dl=0).
+
 ## Fall 2022
-This term, I am teaching two sections of [CALC 1000A](https://www.uwo.ca/math/undergraduate/current_students/course_information/course-outlines-directory/2022/CA1000A_blended.pdf). Access my lecture notes [here](https://www.dropbox.com/sh/5jp1i1fh25br3sf/AAB7AT7WPBLttaZcJcFuTScka?dl=0). For students in my classes, please refer to the [OWL](https://owl.uwo.ca/portal) course page for all resources and information.
+In the fall of 2022, I taught two sections of Calculus I ([CALC 1000A](https://www.uwo.ca/math/undergraduate/current_students/course_information/course-outlines-directory/2022/CA1000A_blended.pdf)). Access my lecture notes [here](https://www.dropbox.com/sh/5jp1i1fh25br3sf/AAB7AT7WPBLttaZcJcFuTScka?dl=0). 
 
 ## Past experience
 During my masters degree in 2017-2018, and from 2019 onwards during my PhD program, I worked as a graduate teaching assistant in the [Department of Mathematics](https://www.math.uwo.ca/) at Western University. I conducted tutorials, hosted office hours, and graded assessments as part of my duties. These courses included: 
