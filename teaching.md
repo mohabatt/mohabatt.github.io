@@ -3,8 +3,10 @@ layout: home
 title: Teaching
 usemathjax: true
 ---
+## Fall 2023
+This term, I am teaching Differential Equations (Math 367), Introductory Statistics (Stat 101), and Business Mathematics (Math 105). Students in my courses should contact me via [email](mailto:mtarkesh@stfx.ca) or refer to the course [moodle page](https://moodle.stfx.ca).
 ## Winter 2023
-This term, I am running a tutorial section of Intermediate Linear Algebra ([MATH 2120B](https://www.uwo.ca/math/undergraduate/current_students/course_information/course-outlines-directory/2022/MATH2120B-2023.pdf)). You can access my tutorial notes [here](https://www.dropbox.com/sh/cl9swvbziansvdx/AAAabqYYg4leLZIuBxfiNKZna?dl=0).
+In the winter of 2023, I am taught two tutorial sections of Intermediate Linear Algebra ([MATH 2120B](https://www.uwo.ca/math/undergraduate/current_students/course_information/course-outlines-directory/2022/MATH2120B-2023.pdf)). You can access my tutorial notes [here](https://www.dropbox.com/sh/cl9swvbziansvdx/AAAabqYYg4leLZIuBxfiNKZna?dl=0).
 
 ## Fall 2022
 In the fall of 2022, I taught two sections of Calculus I ([CALC 1000A](https://www.uwo.ca/math/undergraduate/current_students/course_information/course-outlines-directory/2022/CA1000A_blended.pdf)). Access my lecture notes [here](https://www.dropbox.com/sh/5jp1i1fh25br3sf/AAB7AT7WPBLttaZcJcFuTScka?dl=0). 
