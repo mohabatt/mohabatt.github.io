@@ -4,8 +4,7 @@ title: Research
 usemathjax: true
 ---
 
-I'm currently thinking about [exponential random graph models](https://en.wikipedia.org/wiki/Exponential_family_random_graph_models) (ERGMs) as they appear in mathematics. Traditionally, they are used to [model social networks](https://ranger.uta.edu/~chqding/cse5301/classPapers/ExponentialRandomGraph.pdf). They can be investigated from a mathematical perspective by asking whether this family of probability distributions satisfy some *nice* conditions, such as [negative dependence](https://arxiv.org/abs/math/0404095). In this way, we connect geometry and probability theory. This connection was described in [seminal work](https://arxiv.org/abs/0707.2340) by Borcea, Brändén, and Liggett. As part of my PhD candidacy exam, I prepared a [document](/files/random graphs-markov-bernoulli-exponential.pdf) describing this connection with an eye towards ERGMs and quantum field theory. 
-
+I'm currently thinking about [exponential random graph models](https://en.wikipedia.org/wiki/Exponential_family_random_graph_models) (ERGMs) as they appear in mathematics. Traditionally, they are used to [model social networks](https://ranger.uta.edu/~chqding/cse5301/classPapers/ExponentialRandomGraph.pdf). They can be investigated from a mathematical perspective by asking whether this family of probability distributions satisfy some *nice* conditions, such as [negative dependence](https://arxiv.org/abs/math/0404095). In this way, we connect geometry and probability theory. This connection was described in [seminal work](https://arxiv.org/abs/0707.2340) by Borcea, Brändén, and Liggett. My [PhD thesis](https://ir.lib.uwo.ca/etd/9519/) describes the interplay of these ideas as well as generalizations to other random (hyper)graph models.
 ## Achievements
 - [Ontario Graduate Scholarship in Science and Technology](https://grad.uwo.ca/finances/external_funding/ogs.html), Western University, 2022.
 - Peter Rodney Prize for best student talk at the [Ontario Combinatorics Workshop](http://www.fields.utoronto.ca/sites/default/files/uploads/OCW-2022_Program_0.pdf), University of Waterloo, 2022.
@@ -14,6 +13,8 @@ I'm currently thinking about [exponential random graph models](https://en.wikipe
 - [Faculty of Health Silver Medal for Academic Merit](https://www.yorku.ca/health/scholarships-awards/faculty-of-health-gold-and-silver-medals/), York University, 2016.
 
 ## Talks
+### Summer 2023
+- *Generating polynomials of exponential random graphs*, PhD defense, August 2023
 ### Summer 2022
 - *The geometry of random graphs with a Markov flavour*, [26<sup>th</sup> Ontario Combinatorics Workshop](http://www.fields.utoronto.ca/activities/21-22/combinatorics), University of Waterloo, [May 2022](/files/OCW-picture.jpg) ([slides](/files/OCW-slides.pdf))
 
