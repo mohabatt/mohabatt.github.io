@@ -15,6 +15,8 @@ I'm currently thinking about [exponential random graph models](https://en.wikipe
 ## Talks
 ### Summer 2023
 - *Generating polynomials of exponential random graphs*, PhD defense, August 2023.
+### Fall 2022
+- *The geometry of Markov random graphs*, Geometry and Combinatorics Seminar, The University of Western Ontario, November 22.
 ### Summer 2022
 - *The geometry of random graphs with a Markov flavour*, [26<sup>th</sup> Ontario Combinatorics Workshop](http://www.fields.utoronto.ca/activities/21-22/combinatorics), University of Waterloo, [May 2022](/files/OCW-picture.jpg) ([slides](/files/OCW-slides.pdf))
 
