@@ -3,7 +3,7 @@ layout: home
 title: Contact me
 ---
 
-Contact me at mtarkesh (at) uwo (dot) ca.
+Contact me at mtarkesh (at) uwo (dot) ca or mtarkesh (at) stfx (dot) ca.
 
 <p>My mailing address is:<br/>
 St. Francis Xavier University<br />
