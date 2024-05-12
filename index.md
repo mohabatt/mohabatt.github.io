@@ -14,7 +14,6 @@ If you wish to contact someone close to Mohabat, please reach out to one of the 
 Mohabat's celebration of life is to be held at [INSERT LOCATION] at [INSERT TIME].
 
 <div id="messages"></div>
-
 <script src="/assets/js/messages.js"></script>
 
-If you want to have a message included, please email you message to James Leslie (email address is above).
+If you want to have a message included, please email your message to James Leslie (email address is above).
