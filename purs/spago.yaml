@@ -1,0 +1,44 @@
+package:
+  name: purs
+  dependencies:
+    - aff
+    - avar
+    - console
+    - deku-core
+    - deku-css
+    - deku-dom
+    - effect
+    - fetch
+    - hyrule
+    - prelude
+    - web-dom
+    - web-html
+    - yoga-json
+workspace:
+  packageSet:
+    registry: 50.15.0
+  extraPackages:
+    deku-core:
+      git: https://github.com/mikesol/purescript-deku.git
+      ref: 45479f886c38414ce077679d67dc1260629158c7
+      subdir: deku-core
+
+    deku-css:
+      git: https://github.com/mikesol/purescript-deku.git
+      ref: 45479f886c38414ce077679d67dc1260629158c7
+      subdir: deku-css
+
+    deku-dom:
+      git: https://github.com/mikesol/purescript-deku.git
+      ref: 45479f886c38414ce077679d67dc1260629158c7
+      subdir: deku-dom
+
+    hyrule:
+      git: https://github.com/mikesol/purescript-hyrule.git
+      ref: 8aabfac72fe9216c1ce17aadb375a00f14301d9e
+      dependencies:
+        - effect
+        - js-timers
+        - web-html
+        - unsafe-reference
+        - web-uievents
