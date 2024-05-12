@@ -12,7 +12,10 @@ workspace:
         - effect
         - fetch
         - hyrule
+        - js-timers
         - prelude
+        - random
+        - refs
         - web-dom
         - web-html
         - yoga-json
