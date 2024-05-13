@@ -4,7 +4,7 @@ title: Mohabat Tarkeshian (1994 - 2024)
 usemessages: true
 ---
 
-Mohabat sadly and unexpectedly passed away on 30th May, 2024. This site will be kept up to date with information on her celebration of life, as well as displaying memories and messages of love from her friends and family. 
+Mohabat sadly and unexpectedly passed away on 30th April, 2024. This site will be kept up to date with information on her celebration of life, as well as displaying memories and messages of love from her friends and family. 
 
 If you wish to contact someone close to Mohabat, please reach out to one of the following:
 
