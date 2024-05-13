@@ -2,11 +2,15 @@
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   width: 100%;
-  background-color: #d9faf9;
+  background-color: #e1f5f4;
   border-radius: 5px;
   font-family: "Gill Sans Light", "Helvetica", sans-serif;
   padding: 10px;
   box-sizing: border-box;
+}
+
+.card-footer {
+  /* display: flex; */
 }
 
 .text-show {
@@ -21,7 +25,27 @@
   transition: all 1s ease;
 }
 
-.card-footer {
+.card-signature {
   font-family: cursive;
   text-align: right;
+  /* float: right; */
+}
+
+.card-buttons {
+
+}
+
+.card-button {
+  border: none;
+  padding: 10px 15px;
+  text-align: center;
+  border-radius: 2px;
+  text-decoration: none;
+  display: inline-block;
+  background-color: #AC7EC2;
+  float: left;
+}
+
+.card-button:hover {
+  background-image: linear-gradient(rgb(0 0 0/20%) 0 0);
 }

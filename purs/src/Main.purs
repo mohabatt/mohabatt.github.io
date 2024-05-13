@@ -29,6 +29,7 @@ import Yoga.JSON as JSON
 import Deku.Core (Nut)
 import Deku.Control as DC
 import Deku.DOM as D
+import Deku.DOM.Listeners as DL
 import Deku.DOM.Attributes as DA
 import Deku.Effect as DE
 import Deku.Hooks ((<#~>))
@@ -78,16 +79,20 @@ messageElement = do
 
 -- * Get correct message
 
-cardMaker :: Poll (Maybe Message) -> Poll String -> Nut
-cardMaker activeMessage showClass =
+cardMaker :: Poll (Maybe Message) -> Poll String -> Effect Unit -> Effect Unit -> Nut
+cardMaker activeMessage showClass onNextClick onPrevClick=
     D.div [ DA.klass_ "card" ]
     [ activeMessage <#~>
       case _ of
         Nothing -> DC.text_ "No message"
         Just msg ->
-          D.div [ DA.klass showClass ]
-          [ DC.text_ msg.message
-          , D.footer [ DA.klass_ "card-footer" ] [ DC.text_ msg.name ]
+          D.div_
+          [ D.p [DA.klass showClass] [DC.text_ msg.message]
+          , D.footer [ DA.klass_ "card-footer"]
+            [ D.button [DA.klass_ "card-button", DL.click_ \_ -> onPrevClick] [DC.text_ "Prev"]
+            , D.button [DA.klass_ "card-button", DL.click_ \_ -> onNextClick] [DC.text_ "Next"]
+            , D.div [ DA.klass_ "card-signature" ] [ D.p [DA.klass showClass] [DC.text_ msg.name ] ]
+            ]
           ]
     ]
 
@@ -118,7 +123,6 @@ interval {setActiveMessage, messagesRef, setCounter, counterRef, setFadeClass} =
 
 
 
-
 popAndPush :: forall a. Array a -> Array a
 popAndPush arr = ArrayST.run do
     mutArr <- ArrayST.thaw arr
@@ -130,6 +134,25 @@ popAndPush arr = ArrayST.run do
         pure mutArr
 
 
+popAndPushReverse :: forall a. Array a -> Array a
+popAndPushReverse arr = ArrayST.run do
+    mutArr <- ArrayST.thaw arr
+    mlst <- ArrayST.pop mutArr
+    case mlst of
+      Nothing -> pure mutArr
+      Just lstElem -> do
+        _ <- ArrayST.unshift lstElem mutArr
+        pure mutArr
+
+
+buttons :: {onNextClick :: Effect Unit, onPrevClick :: Effect Unit} -> Nut
+buttons {onNextClick, onPrevClick} =
+  D.div [ DA.klass_ "card-buttons"]
+  [ D.button [DA.klass_ "card-button", DL.click_ \_ -> onPrevClick] [DC.text_ "Prev"],
+    D.button [DA.klass_ "card-button", DL.click_ \_ -> onNextClick] [DC.text_ "Next"]
+  ]
+
+
 main :: Effect Unit
 main = do
   mElem <- messageElement
@@ -138,13 +161,40 @@ main = do
           Nothing -> runInBody
           Just elem -> runInElement elem
 
+  messageNumberRef <- Ref.new Nothing
   counterRef <- Ref.new 0
   messagesRef <- Ref.new []
+
+  foo /\ setMessageNumber /\ messageNumber <- DE.useHot 0
   bar /\ setCounter /\ counter <- DE.useHot 0
   setActiveMessage /\ activeMessage <- DE.useState (Nothing :: Maybe Message)
   baz /\ setFadeClass /\ fadeClass <- DE.useHot "text-show"
 
   getMessages (\msgs -> Ref.write msgs messagesRef) (setActiveMessage <<< Just)
   _ <- interval { setActiveMessage: setActiveMessage <<< Just, messagesRef, setCounter, counterRef, setFadeClass }
+
+
+  let onNextClick = do
+        messages <- Ref.read messagesRef
+        let updatedMessages = popAndPush messages
+        Ref.write updatedMessages messagesRef
+        case Array.head updatedMessages of
+          Nothing -> pure unit
+          Just msg -> do
+            setActiveMessage $ Just msg
+            Ref.write 0 counterRef
+
+      onPrevClick = do
+        messages <- Ref.read messagesRef
+        let updatedMessages = popAndPushReverse messages
+        Ref.write updatedMessages messagesRef
+        case Array.head updatedMessages of
+          Nothing -> pure unit
+          Just msg -> do
+            setActiveMessage $ Just msg
+            Ref.write 0 counterRef
+
   runInFunc Deku.do
-    D.div_ [ cardMaker activeMessage fadeClass ]
+    D.div_ [
+      cardMaker activeMessage fadeClass onNextClick onPrevClick
+      ]
