@@ -7,6 +7,7 @@
   font-family: "Gill Sans Light", "Helvetica", sans-serif;
   padding: 10px;
   box-sizing: border-box;
+  white-space: pre-line;
 }
 
 .card-footer {
