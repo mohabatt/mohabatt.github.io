@@ -45,6 +45,7 @@
   display: inline-block;
   background-color: #AC7EC2;
   float: left;
+  color: black;
 }
 
 .card-button:hover {
