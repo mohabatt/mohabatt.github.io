@@ -50,8 +50,10 @@ eMessagesURL = do
   ori <- origin loc
   pure $ ori <> "/messages.json"
 
-getMessages :: (Messages -> Effect Unit) -> (Message -> Effect Unit) -> Effect Unit
-getMessages setMessages setActiveMessage = do
+getMessages :: { setMessages :: Messages -> Effect Unit
+               , setActiveMessage :: Message -> Effect Unit
+               } -> Effect Unit
+getMessages {setMessages, setActiveMessage} = do
   messagesURL <- eMessagesURL
   launchAff_ do
     { json } <- fetch messagesURL {}
@@ -79,8 +81,14 @@ messageElement = do
 
 -- * Get correct message
 
-cardMaker :: Poll (Maybe Message) -> Poll String -> Effect Unit -> Effect Unit -> Nut
-cardMaker activeMessage showClass onNextClick onPrevClick=
+cardMaker :: { activeMessage :: Poll (Maybe Message)
+             , showClass :: Poll String
+             , onNextClick :: Effect Unit
+             , onPrevClick :: Effect Unit
+             , totalMessageCount :: Poll Int
+             , messageNumber :: Poll Int
+             } -> Nut
+cardMaker { activeMessage, showClass, onNextClick, onPrevClick, totalMessageCount, messageNumber } =
     D.div [ DA.klass_ "card" ]
     [ activeMessage <#~>
       case _ of
@@ -93,34 +101,34 @@ cardMaker activeMessage showClass onNextClick onPrevClick=
             , D.button [DA.klass_ "card-button", DL.click_ \_ -> onNextClick] [DC.text_ "Next"]
             , D.div [ DA.klass_ "card-signature" ] [ D.p [DA.klass showClass] [DC.text_ msg.name ] ]
             ]
-          ]
+          , D.div [ DA.klass_ "message-count-container"]
+            [ D.div [ DA.klass_ "message-count" ]
+              [ messageNumber <#~> \n -> DC.text_ <<< show $ n + 1
+              , DC.text_ " / "
+              , totalMessageCount <#~> DC.text_ <<< show
+              ]
+            ]
+      ]
     ]
 
 
 -- * Interval to update counter
 
-interval :: { setActiveMessage :: Message -> Effect Unit
-             , messagesRef :: Ref.Ref Messages
-             , setCounter :: Int -> Effect Unit
-             , counterRef :: Ref.Ref Int
-             , setFadeClass :: String -> Effect Unit
-             } -> Effect IntervalId
-interval {setActiveMessage, messagesRef, setCounter, counterRef, setFadeClass} =
+interval :: { onNextClick :: Effect Unit
+            , messagesRef :: Ref.Ref Messages
+            , setCounter :: Int -> Effect Unit
+            , counterRef :: Ref.Ref Int
+            , setFadeClass :: String -> Effect Unit
+            } -> Effect IntervalId
+interval { messagesRef, setCounter, counterRef, setFadeClass, onNextClick } =
   setInterval 1000 do
     counter <- Ref.read counterRef
-    (if counter == 0 then setFadeClass "text-show" else pure unit)
-    (if counter == 29 then setFadeClass "text-fade" else pure unit)
     let nextCounter = (counter + 1) `mod` 30
     Ref.write nextCounter counterRef
     setCounter nextCounter
-    (if nextCounter /= 0 then pure unit else do
-      messages <- Ref.read messagesRef
-      let updatedMessages = popAndPush messages
-      Ref.write updatedMessages messagesRef
-      case Array.head updatedMessages of
-        Nothing -> pure unit
-        Just msg -> setActiveMessage msg)
-
+    when ((counter + 1) `mod` 30 == 0) onNextClick
+    when ((counter `mod` 30) == 0) $ setFadeClass "text-show"
+    when (counter == 29) $ setFadeClass "text-fade"
 
 
 popAndPush :: forall a. Array a -> Array a
@@ -161,40 +169,63 @@ main = do
           Nothing -> runInBody
           Just elem -> runInElement elem
 
-  messageNumberRef <- Ref.new Nothing
   counterRef <- Ref.new 0
   messagesRef <- Ref.new []
+  messageNumberRef <- Ref.new 0
 
+  setActiveMessage /\ activeMessage <- DE.useState (Nothing :: Maybe Message)
   foo /\ setMessageNumber /\ messageNumber <- DE.useHot 0
   bar /\ setCounter /\ counter <- DE.useHot 0
-  setActiveMessage /\ activeMessage <- DE.useState (Nothing :: Maybe Message)
   baz /\ setFadeClass /\ fadeClass <- DE.useHot "text-show"
-
-  getMessages (\msgs -> Ref.write msgs messagesRef) (setActiveMessage <<< Just)
-  _ <- interval { setActiveMessage: setActiveMessage <<< Just, messagesRef, setCounter, counterRef, setFadeClass }
-
+  foobar /\ setTotalMessageCount /\ totalMessageCount <- DE.useHot 0
 
   let onNextClick = do
+        Ref.modify_ popAndPush messagesRef
         messages <- Ref.read messagesRef
-        let updatedMessages = popAndPush messages
-        Ref.write updatedMessages messagesRef
-        case Array.head updatedMessages of
+        case Array.head messages of
           Nothing -> pure unit
           Just msg -> do
             setActiveMessage $ Just msg
             Ref.write 0 counterRef
+            messageNumberVal <- Ref.read messageNumberRef
+            messageCount <- Ref.read messagesRef >>= pure <<< Array.length
+            setMessageNumber $ (messageNumberVal + 1) `mod` messageCount
+            Ref.modify_ (\n -> n + 1) messageNumberRef
 
       onPrevClick = do
+        Ref.modify_ popAndPushReverse messagesRef
         messages <- Ref.read messagesRef
-        let updatedMessages = popAndPushReverse messages
-        Ref.write updatedMessages messagesRef
-        case Array.head updatedMessages of
+        case Array.head messages of
           Nothing -> pure unit
           Just msg -> do
             setActiveMessage $ Just msg
             Ref.write 0 counterRef
+            messageNumberVal <- Ref.read messageNumberRef
+            messageCount <- Ref.read messagesRef >>= pure <<< Array.length
+            setMessageNumber $ (messageNumberVal - 1) `mod` messageCount
+            Ref.modify_ (\n -> n - 1) messageNumberRef
+
+      setMessages msgs = do
+        Ref.write msgs messagesRef
+        setTotalMessageCount <<< Array.length $ msgs
+
+  getMessages { setMessages
+              , setActiveMessage: setActiveMessage <<< Just
+              }
+
+  _ <- interval { messagesRef
+                , setCounter
+                , counterRef
+                , setFadeClass
+                , onNextClick
+                }
 
   runInFunc Deku.do
-    D.div_ [
-      cardMaker activeMessage fadeClass onNextClick onPrevClick
-      ]
+    D.div_ [ cardMaker { activeMessage
+                       , showClass: fadeClass
+                       , onNextClick
+                       , onPrevClick
+                       , totalMessageCount
+                       , messageNumber
+                       }
+           ]

@@ -51,3 +51,19 @@
 .card-button:hover {
   background-image: linear-gradient(rgb(0 0 0/20%) 0 0);
 }
+
+.message-count {
+  position: absolute;
+  right: 0px;
+  font-family: "Courier New";
+  font-size: 12px;
+  /* border-radius: 5px; */
+  /* border-width: 1px; */
+  /* border-style: solid; */
+  padding: 1px;
+}
+
+.message-count-container {
+  position: relative;
+  padding: 11px;
+}

@@ -7,6 +7,7 @@
   font-family: "Gill Sans Light", "Helvetica", sans-serif;
   padding: 10px;
   box-sizing: border-box;
+  white-space: pre-line;
 }
 
 .card-footer {
@@ -44,8 +45,25 @@
   display: inline-block;
   background-color: #AC7EC2;
   float: left;
+  color: black;
 }
 
 .card-button:hover {
   background-image: linear-gradient(rgb(0 0 0/20%) 0 0);
+}
+
+.message-count {
+  position: absolute;
+  right: 0px;
+  font-family: "Courier New";
+  font-size: 12px;
+  /* border-radius: 5px; */
+  /* border-width: 1px; */
+  /* border-style: solid; */
+  padding: 1px;
+}
+
+.message-count-container {
+  position: relative;
+  padding: 11px;
 }
