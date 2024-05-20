@@ -40,7 +40,11 @@ import FRP.Poll (Poll)
 
 -- * Fetch the messages
 
-type Message = { name :: String, message :: String }
+type Message = { name :: String
+                 , message :: String
+                 , images :: Maybe (Array String)
+                 }
+
 type Messages = Array Message
 
 eMessagesURL :: Effect String
@@ -95,12 +99,23 @@ cardMaker { activeMessage, showClass, onNextClick, onPrevClick, totalMessageCoun
         Nothing -> DC.text_ "No message"
         Just msg ->
           D.div_
-          [ D.p [DA.klass showClass] [DC.text_ msg.message]
+          [ D.p [DA.klass showClass]
+            [ DC.text_ msg.message ]
           , D.footer [ DA.klass_ "card-footer"]
-            [ D.button [DA.klass_ "card-button", DL.click_ \_ -> onPrevClick] [DC.text_ "Prev"]
-            , D.button [DA.klass_ "card-button", DL.click_ \_ -> onNextClick] [DC.text_ "Next"]
-            , D.div [ DA.klass_ "card-signature" ] [ D.p [DA.klass showClass] [DC.text_ msg.name ] ]
+            [ D.button [DA.klass_ "card-button", DL.click_ \_ -> onPrevClick]
+              [ DC.text_ "Prev" ]
+            , D.button [DA.klass_ "card-button", DL.click_ \_ -> onNextClick]
+              [ DC.text_ "Next" ]
+            , D.div [ DA.klass_ "card-signature" ]
+              [ D.p [DA.klass showClass]
+                [ DC.text_ msg.name ] ]
             ]
+          , case msg.images of
+               Nothing -> D.div_ []
+               Just arr ->
+                 let imageCount = Array.length arr
+                 in D.div [ DA.klass_ "image-grid"] $ arr <#> \url ->
+                 D.img [ DA.src_ url, DA.style_ $ "max-width: " <> (show $ 100 / imageCount) <> "%; max-height: 300px;" ] []
           , D.div [ DA.klass_ "message-count-container"]
             [ D.div [ DA.klass_ "message-count" ]
               [ messageNumber <#~> \n -> DC.text_ <<< show $ n + 1
@@ -108,8 +123,8 @@ cardMaker { activeMessage, showClass, onNextClick, onPrevClick, totalMessageCoun
               , totalMessageCount <#~> DC.text_ <<< show
               ]
             ]
+          ]
       ]
-    ]
 
 
 -- * Interval to update counter
