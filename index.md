@@ -11,7 +11,7 @@ Mohabat's celebration of life will be held in the evening of July 5th, at the [R
 If you wish to contact someone close to Mohabat, please reach out to one of the following:
 
   * James Leslie (Mohabat's Fiancé) - jamesleslie "at" posteo.net;
-  * Bruce Crown (Mohabat's Brother) - contact "at" brucecrown.com.
+  * Bruce Crown (Mohabat's Brother) - contact "at" brucecrown.ca.
 
 <div id="messages"></div>
 <script src="/assets/js/messages.js"></script>
