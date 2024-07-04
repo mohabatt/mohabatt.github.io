@@ -15,7 +15,19 @@ Open live stream
 
 The zoom call will also be streamed to this page.
 
-<iframe src="https://player.twitch.tv/?channel=jeslie0&parent=mohabatmath.ca" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
+<!-- <iframe src="https://player.twitch.tv/?channel=jeslie0&parent=https://mohabatmath.ca" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe> -->
+<!-- Add a placeholder for the Twitch embed -->
+<div id="twitch-embed"></div>
+
+<!-- Load the Twitch embed script -->
+<script src="https://player.twitch.tv/js/embed/v1.js"></script>
+
+<!-- Create a Twitch.Player object. This will render within the placeholder div -->
+<script type="text/javascript">
+  new Twitch.Player("twitch-embed", {
+    channel: "jeslie0"
+  });
+</script>
 
 If you wish to contact someone close to Mohabat, please reach out to one of the following:
 
