@@ -12,7 +12,10 @@ Mohabat's celebration of life will be held from 19:00 - 22:30 on July 5th, at th
 <button class="zoomButton" onclick="onClick()">
 Open live stream
 </button>
-<!-- <div id="meetingSDKElement"></div> -->
+
+The zoom call will also be streamed to this page.
+
+<iframe src="https://player.twitch.tv/?channel=jeslie0&parent=mohabatmath.ca" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
 
 If you wish to contact someone close to Mohabat, please reach out to one of the following:
 
