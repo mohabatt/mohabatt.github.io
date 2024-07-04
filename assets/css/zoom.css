@@ -1,0 +1,10 @@
+.zoomButton {
+    background: #2D8CFF;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.18);
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ebebeb;
+}
