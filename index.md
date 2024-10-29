@@ -9,6 +9,8 @@ Mohabat sadly and unexpectedly passed away on 30th April, 2024. Her celebration 
 ## Mohabat Tarkeshian Award
 Mohabat had a significant impact on both her peers and professors during her time studying at The University of Western Ontario. To honor her and to help contribute to her legacy, the university is establishing an award in her name. The Mohabat Tarkeshian Award will help support graduate students in Mathematics and is currently in its fundraising period. If you are able to contribute, please follow [this link to the donation page](https://www.westernconnect.ca/site/SPageNavigator/MohabatTarkeshianAward.html).
 
+For donations from outside of Canada, the above link will not work. You can donate over the phone directly by calling Western's Donation Processing Team on `+1-800-420-7519` (toll free), or by contacting Mohabat's brother, Bruce Crown (email address below), who can will be able to assist.
+
 ## Celebration of Life Stream
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_T0Wp5jMNAY?si=UPHsfL9Zu-9PP860" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
