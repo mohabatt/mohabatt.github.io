@@ -6,7 +6,7 @@ usemessages: true
 
 Mohabat sadly and unexpectedly passed away on 30th April, 2024. Her celebration of life was held at the [Richmond Hill Centre for the Performing Arts](https://www.rhcentre.ca/) on July 5th, 2024. A stream of it is linked below.
 
-## A Year in Memorial
+## A Year in Memoriam
 Even though it has been a year since Mohabat passed away, she is still remembered by those who knew and cherished her. I have been in contact with some of Mohabat's friends and family who have shared their thoughts and memories with me, as well as giving permission to share here.
 
 _It's hard to believe it's been a year. I still remember Mohabat in many little things: my dad recently watching Ted Lasso, preparing for a presentation for work and thinking how she would explain something (WWMD). -- Luuk Verhoeven_
